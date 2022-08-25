@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calculator</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./src/styles.css">
+  </head>
+
+  <body>
+    <div class="calc">
+      <div class="toparea">
+        <span  class="previous-field"></span>
+        <span  class="current-field"></span>
+        <!-- <input type="text" class="previous-field" readonly></input>
+        <input type="text" class="current-field" readonly></input> -->
+      </div>
+      <div class="buttons">
+        <div class="button-row">
+          <div class="numbers">7</div>
+          <div class="numbers">8</div>
+          <div class="numbers">9</div>
+          <div class="change-sign">±</div>
+          <div id="del-last" class="delete">←</div>
+        </div>
+        <div class="button-row">
+          <div class="numbers">4</div>
+          <div class="numbers">5</div>
+          <div class="numbers">6</div>
+          <div id="mult" class="operation">X</div>
+          <div id="divide" class="operation">÷</div>
+        </div>
+        <div class="button-row">
+          <div class="numbers">1</div>
+          <div class="numbers">2</div>
+          <div class="numbers">3</div>
+          
+          <div id="minus" class="operation">-</div>
+          <div class="sqrt">√</div>
+          
+        </div>
+        <div class="button-row">
+          <div class="delete-all">C</div>
+          <div class="numbers">0</div>
+          <div class="numbers">.</div>
+          <div id="plus" class="operation">+</div>
+          
+          <div id="equals" class="equals">=</div>
+        </div>
+      </div>
+      
+    </div>
+
+    <script src="src/index.js"></script>
+  </body>
+</html>

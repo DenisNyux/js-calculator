@@ -1,0 +1,173 @@
+body {
+  font-family: sans-serif;
+}
+
+.calc {
+  width: 500px;
+  height: 600px;
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5%;
+  border: 2px solid grey;
+}
+
+.toparea {
+  height: 20%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.previous-field {
+  width: 90%;
+  height: 25%;
+  background-color: aliceblue;
+  border: 2px ;
+  text-align: right;
+  vertical-align: middle;
+  font-size: 20px;
+}
+
+.current-field {
+  width: 90%;
+  height: 50%;
+  background-color: white;
+  border: 2px solid grey;
+  text-align: right;
+  vertical-align: middle;
+  font-size: 48px;
+}
+
+
+.buttons {
+  height: 80%;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.button-row {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.numbers {
+  background-color: aquamarine;
+  width: 15%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  border-radius: 5%;
+  border: 2px solid grey;
+}
+.numbers:hover {
+  box-shadow: inset 0 0 0 5px #b6b6b6;
+}
+
+.operation {
+  background-color: blanchedalmond;
+  width: 15%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  border-radius: 5%;
+  border: 2px solid grey;
+}
+
+.operation:hover {
+  box-shadow: inset 0 0 0 5px #b6b6b6;
+}
+
+.change-sign {
+  background-color: blanchedalmond;
+  width: 15%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  border-radius: 5%;
+  border: 2px solid grey;
+}
+.change-sign:hover {
+  box-shadow: inset 0 0 0 5px #b6b6b6;
+}
+
+.sqrt {
+  background-color: blanchedalmond;
+  width: 15%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  border-radius: 5%;
+  border: 2px solid grey;
+}
+.sqrt:hover {
+  box-shadow: inset 0 0 0 5px #b6b6b6;
+}
+
+.equals {
+  background-color: palevioletred; 
+  width: 15%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  border-radius: 5%;
+  border: 2px solid grey;
+}
+.equals:hover {
+  box-shadow: inset 0 0 0 5px #b6b6b6;
+}
+
+
+.delete {
+  background-color:palevioletred; 
+  width: 15%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  border-radius: 5%;
+  border: 2px solid grey;
+}
+.delete:hover {
+  box-shadow: inset 0 0 0 5px #b6b6b6;
+}
+
+.delete-all {
+  background-color:palevioletred; 
+  width: 15%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  border-radius: 5%;
+  border: 2px solid grey;
+}
+.delete-all:hover {
+  box-shadow: inset 0 0 0 5px #b6b6b6;
+}
+
+
